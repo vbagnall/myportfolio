@@ -1,0 +1,174 @@
+body {
+	background-color: #F7F7F7;
+}
+
+/* Start Navigation */
+
+.top {
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+}
+
+.name {
+	width: 50%;
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.navigation {
+	width: 60%;
+	background-color: transparent;
+}
+
+nav {
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 25px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+nav a:hover {
+	color: red;
+}
+
+/* End Navigation */
+
+/* Start Main Section */
+
+.container {
+	width: 80%;
+	height: 500px;
+	display: flex;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.fool {
+	width: 33.33%;
+	height: 500px;
+}
+
+.magician {
+	width: 33.33%;
+	height: 500px;
+}
+
+.priestess {
+	width: 33.33%;
+	height: 500px;
+}
+
+/* End Main Section */
+
+/* Start About */
+
+.about {
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	background-color: #FFF;
+}
+
+.abt {
+	text-align: center;
+	padding: 10px;
+	font-family: tahoma;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.aboutxt {
+	text-align: center;
+	padding: 15px;
+	font-family: calibri;
+	font-size: 18px;
+
+}
+
+/* End About */
+
+/* Start Project One */
+
+.projectone {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	background-color: #FFF;
+}
+
+.prone {
+	text-align: center;
+	padding: 10px;
+	font-family: tahoma;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.proneimg {
+	float: left;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.pronetxt {
+	padding: 15px;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+/* End Project One */
+
+/* Start Project Two */
+
+.projecttwo {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	background-color: #FFF;
+}
+
+.protwo {
+	text-align: center;
+	padding: 10px;
+	font-family: tahoma;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.protwoimg {
+	float: left;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.protwotxt {
+	padding: 15px;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+/* End Project Two */
